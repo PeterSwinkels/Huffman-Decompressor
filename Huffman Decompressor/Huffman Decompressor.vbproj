@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EEC16A4C-7B26-4B2A-8903-F6EC6BA190EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Huffman_Decompressor.CoreModule</StartupObject>
-    <RootNamespace>Huffman_Decompressor</RootNamespace>
+    <StartupObject>HuffmanDecompressorProgram.CoreModule</StartupObject>
+    <RootNamespace>HuffmanDecompressorProgram</RootNamespace>
     <AssemblyName>Huffman Decompressor</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
@@ -69,6 +69,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

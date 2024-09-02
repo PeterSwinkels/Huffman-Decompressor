@@ -5,7 +5,6 @@ Option Infer Off
 Option Strict On
 
 Imports System
-Imports System.Collections
 Imports System.Collections.Generic
 Imports System.Convert
 Imports System.Environment
@@ -68,7 +67,7 @@ Public Module CoreModule
             Console.WriteLine("No Huffman compressed data to decompress.")
          End If
       Catch ExceptionO As Exception
-         Console.WriteLine($"Error: {ExceptionO.Message}")
+         Console.Error.WriteLine($"Error: {ExceptionO.Message}")
       End Try
    End Sub
 
@@ -107,7 +106,7 @@ Public Module CoreModule
 
          Return DecompressedData
       Catch ExceptionO As Exception
-         Console.WriteLine($"Error: {ExceptionO.Message}")
+         Console.Error.WriteLine($"Error: {ExceptionO.Message}")
       End Try
 
       Return Nothing
