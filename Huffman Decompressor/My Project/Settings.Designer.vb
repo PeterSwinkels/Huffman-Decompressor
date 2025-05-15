@@ -63,10 +63,10 @@ Namespace My
     Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()> _
    Friend Module MySettingsProperty
 
-      <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-      Friend ReadOnly Property Settings() As Global.Huffman_Decompressor.My.MySettings
+      <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>
+      Friend ReadOnly Property Settings() As Global.HuffmanDecompressorProgram.My.MySettings
          Get
-            Return Global.Huffman_Decompressor.My.MySettings.Default
+            Return Global.HuffmanDecompressorProgram.My.MySettings.Default
          End Get
       End Property
    End Module
